@@ -9,8 +9,6 @@
     <h1>JavaScript Calculator</h1>
     <hr size=10 color=black>
     <div class="calci">
-      <form name="calculator">
-
       <input type="text" name="display" value="" id="display" style="font-size:25px;color:black" disabled>
       <br>
       <button type="button" value="7" id="no-button" name="button" onclick="expression('7')">7</button>
@@ -47,12 +45,12 @@
       function expression(x)
       {
 
-        document.calculator.display.value += x;
+        document.getElementById("display").innerhtml += x;
       }
       window.addEventListener("error", handleError, true);
 
     function handleError(evt) {
-      if (evt.message) { 
+      if (evt.message) {
         alert("error: "+evt.message +" at linenumber: "+evt.lineno+" of file: "+evt.filename);
       } else {
         alert("error: "+evt.type+" from element: "+(evt.srcElement || evt.target));
