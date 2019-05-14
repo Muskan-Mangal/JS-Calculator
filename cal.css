@@ -1,0 +1,63 @@
+body{
+  background-color:#f5c76d;
+
+}
+.calci{
+  margin-left: 35%;
+  margin-top: 8%;
+  width:308px;
+  height:400px;
+  background-color: gray;
+  border: 4px solid black;
+
+}
+
+h1{
+  margin-left: 35%;
+  font-weight: bolder;
+  font-family:monospace;
+  color: black;
+  font-size: 40px;
+}
+#display{
+  height: 50px;
+  background-color: white;
+  width:280px;
+  margin-top: 10px;
+  margin-left:10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#no-button{
+    margin-left:10px;
+    width: 61px;
+    height: 50px;
+    margin-top: 15px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border:3px solid white;
+    border-radius: 5px;
+
+}
+#equal-button{
+  margin-left:10px;
+  width: 213px;
+  height: 50px;
+  margin-top: 15px;
+  font-size: 30px;
+  background-color:#032358;
+  border-radius: 2px;
+  color: white;
+}
+#operator-button{
+  margin-left:10px;
+  width: 61px;
+  height: 50px;
+  margin-top: 15px;
+  font-size: 30px;
+  background-color: #4484ef;
+  color: black;
+  font-weight:bolder;
+  border-radius:2px;
+}
