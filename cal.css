@@ -1,5 +1,5 @@
 body{
-  background-color:#f5c76d;
+ background: linear-gradient(to left, #8E0E00, #1F1C18);
 
 }
 .calci{
@@ -17,7 +17,7 @@ h1{
   font-weight: bolder;
   font-family:monospace;
   color: black;
-  font-size: 40px;
+  font-size: 40pxs;
 }
 #display{
   height: 50px;

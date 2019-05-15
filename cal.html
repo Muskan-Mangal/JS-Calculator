@@ -14,7 +14,7 @@
       <button type="button" value="7" id="no-button" name="button" onclick="expression('7')">7</button>
       <button type="button" value="8" id="no-button" name="button" onclick="expression('8')">8</button>
       <button type="button" value="9" id="no-button" name="button" onclick="expression('9')">9</button>
-      <button type="button" value="clear" id="no-button" style="background-color:#032358;border-radius: 0px ; border:1px solid white;" name="button" onclick="document.calculator.display.value =''">C</button>
+      <button type="button" value="clear" id="no-button" style="background-color:#032358;border-radius: 0px ; border:1px solid white;" name="button" onclick="clears()">C</button>
 
       <br>
       <button type="button" value="4" id="no-button" name="button" onclick="expression('4')">4</button>
@@ -35,29 +35,13 @@
       <button type="button" value="*" id="operator-button" name="button" onclick="expression('*')">*</button>
 
       <br>
-      <button type="button" value="equal" id="equal-button" name="button" onclick="document.calculator.display.value=eval(document.calculator.display.value)"> = </button>
+      <button type="button" value="equal" id="equal-button" name="button" onclick="solve()"> = </button>
       <button type="button" value="/" id="operator-button" name="button" onclick="expression('/')">/</button>
 
       </form>
     </div>
 
-    <script type="text/javascript">
-      function expression(x)
-      {
-
-        document.getElementById("display").innerhtml += x;
-      }
-      window.addEventListener("error", handleError, true);
-
-    function handleError(evt) {
-      if (evt.message) {
-        alert("error: "+evt.message +" at linenumber: "+evt.lineno+" of file: "+evt.filename);
-      } else {
-        alert("error: "+evt.type+" from element: "+(evt.srcElement || evt.target));
-      }
-  }
-
-    </script>
+    <script type="text/javascript" src="cal.js"></script>
 
   </body>
 </html>
