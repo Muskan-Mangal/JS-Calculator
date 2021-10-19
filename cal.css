@@ -61,3 +61,6 @@ h1{
   font-weight:bolder;
   border-radius:2px;
 }
+a {
+    cursor: pointer;
+}
