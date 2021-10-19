@@ -1,5 +1,5 @@
 # JS-Calculator
-Just a kick start project for Javascript. Nothing special is used in it. Simple calculator using HTML5, CSS, and basic JS.
+Just a kick start project for Javascript. Nothing special is used in it. Simple calculator using HTML5, CSS, and basic JS. Basic start for learning JS.
 
 ## It contains:
 
